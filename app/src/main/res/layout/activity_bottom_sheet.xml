@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="scionoftech.snackbarandbottomsheer.BottomSheet">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/app_bar" />
+
+    <Button
+        android:id="@+id/clickme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Show" />
+
+    <RelativeLayout
+        android:id="@+id/sheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/toolbar_sheet"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/PrimaryColor">
+
+            <RelativeLayout
+                android:id="@+id/back"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/ic_action_back" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/sheet_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Bottom Sheet"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Hi i am Bottom Sheet"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

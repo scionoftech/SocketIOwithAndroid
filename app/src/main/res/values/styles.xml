@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/PrimaryColor</item>
+        <item name="colorPrimaryDark">@color/PrimaryColorDark</item>
+        <item name="colorAccent">@color/accentColor</item>
+
+    </style>
+
+    <style name="MyCustomTollBar" parent="ThemeOverlay.AppCompat.Light">
+
+        <item name="android:textColorPrimary">#EEE</item>
+        <item name="android:textColorSecondary">#EEE</item>
+        <!-- <item name="android:actionBarItemBackground">@color/itemBackground</item>-->
+        <item name="android:selectableItemBackground">@color/itemSelect</item>
+    </style>
+    <style name="TwoWayView">
+        <item name="android:orientation">horizontal</item>
+    </style>
+</resources>
