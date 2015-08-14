@@ -1,19 +1,12 @@
-#SnackbarAndBottomSheet
-
-A simple project to explain how to create Material Design Components Snackbar and Bottom Sheet.
-
-[![Snackbar](https://github.com/scionoftech/SnackbarAndBottomSheet/blob/Development/sanpbar.PNG)]
-[![BottomSheet](https://github.com/scionoftech/SnackbarAndBottomSheet/blob/Development/bottomsheet.PNG)]
-=======
 #SocketIO with Android
 
-A small project to explain how to use SocketIO with Android(Client) and Node.js(Server). 
+A small project to explain how to use SocketIO with Android(Client) and Node.js(Server).
 
 This project uses three jar files which are,
 
-* [socket.io-client](http://mvnrepository.com/artifact/com.github.nkzawa/socket.io-client/0.6.0)
-+ [engine.io-client](http://mvnrepository.com/artifact/com.github.nkzawa/engine.io-client/0.6.0)
-- [Java-WebSocket](http://mvnrepository.com/artifact/org.java-websocket/Java-WebSocket/1.3.0)
+*[socket.io-client](http://mvnrepository.com/artifact/com.github.nkzawa/socket.io-client/0.6.0)
++[engine.io-client](http://mvnrepository.com/artifact/com.github.nkzawa/engine.io-client/0.6.0)
+-[Java-WebSocket](http://mvnrepository.com/artifact/org.java-websocket/Java-WebSocket/1.3.0)
 
 ##How to use in Android
   ```java
