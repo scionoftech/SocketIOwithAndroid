@@ -64,10 +64,10 @@ var app=express();
 var http= require('http').createServer(app);
 var io=require('socket.io').listen(http);
 
-<!-- app.get('/',function(req,res)
+/*app.get('/',function(req,res)
 {
     res.send("hello world");
-}); -->
+});*/
 
 //socket.io listen for events
 io.on('connection', function(socket){
